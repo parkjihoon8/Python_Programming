@@ -108,5 +108,9 @@ stocks = (
 )
 
 # 총 재고 금액 출력
-print
+total = sum()
+
+print(f"총액: {total:,}원")
+
+
                                                     # ✅ 총액: 21,000원
