@@ -20,7 +20,9 @@ print(type(a), type(b))
 
 a = [1, 3.14, True, "Python"]
 print(a)
-a = python
+s = "python"
+print(list(s))
+print(list(range(10)))
 
 # ===========================================================
 # 1. 리스트는 mutable하다. (변경 가능)
@@ -76,12 +78,14 @@ print(id(b))
 print(sorted(a, reverse=True))
 # 리스트 합치기
 print(a + [10, 20])
-print(a + 10)
+print(a + 10)   
 
 # "+" 연산은 문자열과 동일하게 새로운 리스트 객체를 만듦
 # 원본을 바꾸려면 리스트 메소드 사용하기
-
-
+a.append([10,20])
+print(a)
+a.extend([10,20])
+print(a)
 # 리스트 반복하기
 
 
