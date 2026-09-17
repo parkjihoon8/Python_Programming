@@ -68,4 +68,4 @@ print(s.union(s2))   # 합집합
 
 # 멤버십 연산자
 print(10 in s)   # True
-print(1 in s)  # False
+print(1 in s)  # False#/
