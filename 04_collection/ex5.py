@@ -38,7 +38,12 @@ if "phone" in d:
 # ===========================================================
 
 # 딕셔너리 순회
-
+for key in d:
+    print(key, d[key])
+for value in d.values():
+    print(value)
+for key, value in d.items():
+    print(key, value)
 
 
 # ===========================================================
@@ -53,7 +58,13 @@ if "phone" in d:
 # ===========================================================
 
 d = {"kor": 90, "mat": 85, "eng": 80}
-
+d["kor"] = 100
+print(d)
+d["sci"] = 80
+print(d)
+d["sci"] = 100
+print(d)
+d[[1, 2]] = 100
 
 
 # 키로 가능한 것 : immutable 타입 (숫자형, 불리언, 문자열, 튜플) -> hashable type
